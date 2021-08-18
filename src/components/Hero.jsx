@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import HeroImg from '../assets/bg-image.png'
+import { MdKeyboardArrowRight } from 'react-icons/md';
+
 const Hero = () => {
 
     const Section = styled.section`
@@ -59,6 +61,7 @@ const Hero = () => {
                     </Desc>
                     <Button href='#' target='_blank'>
                         <span>Get Started now</span>
+                        <MdKeyboardArrowRight />
                     </Button>
                 </Left>
             </Content>

@@ -30,7 +30,7 @@ const Logo = styled.div`
 const Nav = styled.nav`
   flex: 1;
   position: relative;
-  padding-left: 50px;
+  padding-left: 10px;
 `;
 
 const NavLink = styled(Link)`
@@ -98,7 +98,7 @@ const Navbar = () => {
         <Nav>
           <NavLink to='/'>HOME</NavLink>
           <NavLink to='/'>MARKET</NavLink>
-          <NavLink to='/'>TRADE</NavLink>
+          <NavLink to='/'>ILUSTRATIONS</NavLink>
           <NavLink to='/'>PRICING</NavLink>
           <NavLink to='/'>DOWNLOAD</NavLink>
           <NavLink to='/'>HELP</NavLink>
